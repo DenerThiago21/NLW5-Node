@@ -14,7 +14,7 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
   <p>Explicação das formas que podemos utilizar um banco de dados dentro de uma aplicação:</p>
     Driver Nativo - {Exige conhecimento da linguagem do banco de dados escolhido, ou seja escreve-se as querys puras dentro do código};<br />
     Query Builder(knex.js) - {cria um padrão para consultas, facilita a vida, caso haja uma troca no DB não é preciso reescrever todas as querys novamente};<br />
-    ORM(TypeORM ou Sequelize) - {faz o mapeamento de objetos para entidade no banco de dados, a grosso modo replica classes para o banco de dados};<br />
+    ORM(TypeORM ou Sequelize) - {faz o mapeamento de objetos para entidade no banco de dados, a grosso modo replica classes para o banco de dados};<br /><br>
   
   <p>Instalado e configurado o ambiente de banco de dados:</p>
     TypeORM, SQLite3, reflect-metadata;<br/>
