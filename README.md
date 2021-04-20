@@ -2,8 +2,8 @@
 Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
 
 <b>Primeiro dia</b>:
-  Instalação e configuração do ambiente;
-    Configurado o typeScript;
+  <p>Instalação e configuração do ambiente;</p>
+    <p>Configurado o typeScript;</p>
     Configurado Express - microframework que auxiliará na criação de rotas dentro da aplicação;
     Instalado e configurado o Insomnia para fazer requisições dos mais variados tipos;
     O que são e para que servem os verbos HTTP(GET{busca}; POST{criação}; PUT{alteração}; DELETE{deletar/apagar}; PATCH{alterar informação específica})
