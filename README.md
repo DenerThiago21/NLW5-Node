@@ -1,7 +1,7 @@
 # NLW5-Node
 Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
 
-Primeiro dia:
+<b>Primeiro dia</b>:
   Instalação e configuração do ambiente;
     Configurado o typeScript;
     Configurado Express - microframework que auxiliará na criação de rotas dentro da aplicação;
