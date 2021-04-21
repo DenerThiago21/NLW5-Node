@@ -1,26 +1,12 @@
 import express from 'express';
 import './database';
+import { routes } from './routes';
 
 
 const app = express();
 
-/**
- * GET    -> busca
- * POST   -> criação
- * PUT    -> alteração
- * DELETE -> deletar
- * PATCH  -> alterar uma informação específica
- */
-app.get('/', (request, response) => {
-    return response.json({
-        message: 'hi guys'
-    });
-});
+app.use(express.json());
 
-app.post('/', (request, response) => {
-    return response.json({
-        message: 'Salvo com sucesso'
-    });
-});
+app.use(routes);
 
 app.listen(8000, () => console.log('Server running port 8000'));
