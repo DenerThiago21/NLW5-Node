@@ -25,10 +25,8 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
     -->Dentro do arquivo criado há dois métodos, UP e DOWN<br />
     --->Todas as vezes que quisermos executar uma migration utilizamos o script(yarn typeorm migration:run), que chama o método UP;<br />
     --->Caso haja algum erro ou precise reverter a migration utilizamos o script(yarn typeorm migration:revert), que chama o método DOWN;<br />
-    
     ->Repositórios: <br />
-    -->Classe responsável por todas as manipulações de dados, ou seja faz a comunicação entre a entidade e tabelas no BD (Representação e manipulação de dados);<br />
-    
+    -->Classe responsável por todas as manipulações de dados, ou seja faz a comunicação entre a entidade e tabelas no BD (Representação e manipulação de dados);<br />    
     ->Tipos de parâmetros para requisições: <br />
     -->Routes Params => parametros de rotas (http://localhost:8080/settings/1)<br />
     -->Query Params  => Filtros e buscas    (http://localhost:8080/settings/1?search=algo_para_pesquisar)<br />
