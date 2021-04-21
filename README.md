@@ -20,4 +20,9 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
     ->TypeORM, SQLite3, reflect-metadata;<br/>
     ->Migrations:<br />
     -->Cria um histórico de tudo que está sendo criado/removido/alterado dentro do banco de dados, tornando os banco de dados atualizados/sincronizados, evitando erros deste tipo<br />
+    ->Criação e configuração da primeira migration<br />
+    -->Script para a criação da migration(yarn typeorm migration:create -n nome_da_migration);<br />
+    -->Dentro do arquivo criado há dois métodos, UP e DOWN<br />
+    --->Todas as vezes que quisermos executar uma migration utilizamos o script(yarn typeorm migration:run), que chama o método UP;<br />
+    --->Caso haja algum erro ou precise reverter a migration utilizamos o script(yarn typeorm migration:revert), que chama o método DOWN;<br />
   
