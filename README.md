@@ -31,4 +31,7 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
     -->Routes Params => parametros de rotas (http://localhost:8080/settings/1)<br />
     -->Query Params  => Filtros e buscas    (http://localhost:8080/settings/1?search=algo_para_pesquisar)<br />
     -->Body Params   => parametros que vem no corpo da requisição({objeto json no corpo da requisição})<br/>
+    
+<p><b>Terceiro dia:</b></p>
+    
 
