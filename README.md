@@ -30,8 +30,12 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
     ->Tipos de parâmetros para requisições: <br />
     -->Routes Params => parametros de rotas (http://localhost:8080/settings/1)<br />
     -->Query Params  => Filtros e buscas    (http://localhost:8080/settings/1?search=algo_para_pesquisar)<br />
-    -->Body Params   => parametros que vem no corpo da requisição({objeto json no corpo da requisição})<br/>
+    -->Body Params   => parametros que vem no corpo da requisição({objeto json no corpo da requisição})<br/><br />
     
 <p><b>Terceiro dia:</b></p>
+  Basicamente nesta aula foi criado a estrutura de tabelas e entidades, além de terem sido feitas abstrações no código fonte;<br />
+    --> Criação das tabelas e entidades User e Messages<br />
+    ---> Criação de relacionamento ManyToOne; <br />
+    -->Feito abstrações no código (Services/Entities/Controller/Repositories/Database_Migrations)<br/><br />
     
 
