@@ -37,5 +37,11 @@ Estudos do NLW05 - trilha de node.js {instrutora: Dani Evangelista}
     --> Criação das tabelas e entidades User e Messages<br />
     ---> Criação de relacionamento ManyToOne; <br />
     -->Feito abstrações no código (Services/Entities/Controller/Repositories/Database_Migrations)<br/><br />
+   
+ <p><b>Quarto dia:</b></p>
+  Concluido a criação das tabelas e criado WebSocket dentro da aplicação.<br />
+  Explicação do protocolo HTTP: cliente manda a requisição e aguarda a resposta do servidor, assim que o cliente recebe a resposta do servidor a comunicação entre as partes é encerrada;<br/>
+  Explicação do protocolo ws(web socket): o cliente tem que se conectar ao servidor e esta conexão só será perdida quando o cliente se desconectar do Web Socket, assim o cliente pode enviar informações ao servidor, e o servidor pode mandar informações ao cliente, mesmo o cliente não solicitando nada.<br /><br />
+  
     
 
